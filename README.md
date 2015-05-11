@@ -1,7 +1,9 @@
-pow-mongodb-fixtures
+promise-mongodb-fixtures
 =================
 
 Simple fixture loader for MongoDB on NodeJS.  Makes managing relationships between documents easier.
+
+This module was initially forked from [https://github.com/powmedia/pow-mongodb-fixtures](pow-mongodb-fixtures).
 
 Fixtures can be in one file, or divided up into separate files for organisation 
 (e.g. one file per model)

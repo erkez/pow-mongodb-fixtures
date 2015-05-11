@@ -1,11 +1,15 @@
 {
-  "author": "Charles Davison <charlie@powmedia.co.uk>",
-  "name": "pow-mongodb-fixtures",
-  "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
+  "author": "Alan Heitkotter <heitkotter@gmail.com>",
+  "contributors": [{
+    "name": "Charles Davison",
+    "email": "charlie@powmedia.co.uk"
+  }],
+  "name": "promise-mongodb-fixtures",
+  "description": "Easy JSON fixture loading for MongoDB. Makes managing document relationships easier.",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/powmedia/pow-mongodb-fixtures.git"
+    "url": "http://github.com/erkez/promise-mongodb-fixtures.git"
   },
   "bin": {
     "mongofixtures": "./bin/mongofixtures"
@@ -25,6 +29,22 @@
   },
   "main": "src/index",
   "scripts": {
-    "test": "node_modules/.bin/nodeunit test"
-  }
+    "test": "nodeunit test"
+  },
+  "bugs": {
+    "url": "https://github.com/erkez/pow-mongodb-fixtures/issues"
+  },
+  "homepage": "https://github.com/powmedia/pow-mongodb-fixtures",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "promise",
+    "mongo",
+    "mongodb",
+    "test",
+    "fixture",
+    "bluebird"
+  ],
+  "license": "ISC"
 }
